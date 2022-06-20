@@ -1,0 +1,64 @@
+.header__logo-link{
+    font: 700 1.875rem "Arial";
+    color: #a5adb8;
+    text-decoration: none;
+    display: block;
+}
+
+.header__logo-desc{
+    font: 700 0.75rem "Arial";
+    color: #656f7a;
+    margin: 0;
+}
+.header__logo{
+    float: left;
+}
+.header__search{
+    float: right;
+    padding-top: 5px;
+}
+.header__search input{
+    border-radius: 5px;
+    border: 1px solid #875f66;
+    float: left;
+    height: 34px;
+    padding: 0 10px;
+    color: #5b636e;
+    background-color: #2d363b;
+}
+.header__search input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #5b636e;
+}
+.header__search input::-moz-placeholder { /* Firefox 19+ */
+    color: #5b636e;
+}
+.header__search input:-ms-input-placeholder { /* IE 10+ */
+    color: #5b636e;
+}
+.header__search input:-moz-placeholder { /* Firefox 18- */
+    color: #5b636e;
+}
+
+.header__search button{
+    background: #ae4b5d;
+    border: 1px solid #ae4b5d;
+    border-radius: 5px;
+    float: left;
+    margin-left: 10px;
+    width: 36px;
+    height: 34px;
+    column-rule: #fff;
+}
+.header .container {
+    padding: 0 8px;
+    padding: 20px 8px 15px;
+}
+.header {
+    background: rgb(43,48,52);
+    background: linear-gradient(0deg, rgba(43,48,52,1) 0%, rgba(53,58,70,1) 100%);
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
