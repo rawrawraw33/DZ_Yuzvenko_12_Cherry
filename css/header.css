@@ -49,6 +49,8 @@
     width: 36px;
     height: 34px;
     color: #fff;
+    padding-left: 8px;
+    padding-top: 6px;
 }
 .header .container {
     padding: 14px 8px 10px;
