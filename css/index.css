@@ -79,12 +79,20 @@ main .container {
     padding: 0;
     margin: 0;
 }
+select , button:hover{
+    cursor: pointer;
+}
 .nav__list-link {
     color: #fff;
     font: 700 1rem / 0.875rem "Arial";
     padding: 10px 25px;
     display: block;
     text-decoration: none;
+    border: 2px solid transparent;
+}
+.nav__list-link:hover{
+    border: 2px solid #fff;
+
 }
 .nav__list-item{
     float: left;
@@ -141,13 +149,18 @@ aside form{
 }
 aside input , aside select {
     display: block;
-    width: auto;
+    width: 100%;
     border: 1px solid #fffcfc;
     border-radius: 5px;
     margin-bottom: 14px;
     height: 30px;
     padding-left: 10px;
     background-color: #e3e4e5;
+}
+aside input:hover , aside select:hover{
+    border: 1px solid #95161f;
+    cursor: pointer;
+    
 }
 aside h3{
     margin: 15px 0 20px;
@@ -215,6 +228,10 @@ aside button {
 .more-about{
     color: #95161f;
     font-size: 0.75rem ; 
+    
+}
+.more-about:hover{
+    color: #6b6f74;
 }
 .article__title{
     font-size: 1.5rem;
